@@ -18,8 +18,8 @@ report = f'{first_player_scored} scored in the {goal_0}nd minute\n{second_player
 
 # Part 2
 player = 'Erwin Koeman'
-first_name = player[player.find('Erwin'):player.find(' ')]
-last_name_len = len(player[player.find('Koeman'):])
+first_name = player[:player.find(' ')]
+last_name_len = len(player[player.find(' ')+1:])
 name_short = f'{first_name[0]}.{player[-1-last_name_len:]}'
 chant = f'{first_name}! ' * (len(first_name)-1) + f'{first_name}!'
 good_chant = chant[-1]!=" "
