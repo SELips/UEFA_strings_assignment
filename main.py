@@ -15,7 +15,8 @@ scorers = first_player_scored + " " + str(goal_0) +", " + second_player_scored +
 
 report = f'{first_player_scored} scored in the {goal_0}nd minute\n{second_player_scored} scored in the {goal_1}th minute'
 
-
+"""David heeft dit al een keer nagekeken en zei dat het goedgekeurd was, maar er blijft een rood kruis bij de opdracht staan. 
+Dus hier nog een keer met de verbeteringen."""
 # Part 2
 player = 'Erwin Koeman'
 first_name = player[:player.find(' ')]
